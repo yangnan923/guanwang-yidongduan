@@ -1,0 +1,11 @@
+{
+  "requires": true,
+  "lockfileVersion": 1,
+  "dependencies": {
+    "uview-ui": {
+      "version": "1.6.8",
+      "resolved": "https://registry.npmjs.org/uview-ui/-/uview-ui-1.6.8.tgz",
+      "integrity": "sha512-lFhClwUbZkLLYcrfcrdO/DPymh0/1C2yXrF7otpSLkCrRp9FShe0g6lH7KAxLTFx3C+V46hlWzTQB7XTz0CQgA=="
+    }
+  }
+}

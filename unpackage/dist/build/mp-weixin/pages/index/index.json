@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "旺狗狗科技官网",
+  "usingComponents": {
+    "u-tabs": "/node-modules/uview-ui/components/u-tabs/u-tabs",
+    "u-popup": "/node-modules/uview-ui/components/u-popup/u-popup",
+    "custom-swiper": "/components/blackmonth-swiper/index"
+  }
+}

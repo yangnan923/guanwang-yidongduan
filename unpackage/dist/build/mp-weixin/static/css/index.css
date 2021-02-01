@@ -1,0 +1,469 @@
+#fullpage {
+  visibility: hidden;
+}
+.section {
+  width: 100%;
+  font-size: 24px;
+  overflow: hidden;
+  position: relative;
+}
+.section .bgimg {
+  position: absolute;
+  width: 100%;
+  height: 1201rpx;
+  left: 0;
+  bottom: 0;
+  z-index: 99;
+}
+.section .bg2 {
+  position: absolute;
+  width: 100%;
+  height: 1334rpx;
+  left: 0;
+  bottom: 0;
+  z-index: 99;
+}
+.section .jt {
+  position: absolute;
+  left: 0;
+  bottom: 20rpx;
+  width: 100%;
+  height: 94rpx;
+  z-index: 100;
+}
+.bg1 {
+  background-color: #0a8dff;
+}
+.bg1 .section-main {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1098rpx;
+  z-index: 100;
+}
+.bg1 .section-main .p1 {
+  height: 72rpx;
+  font-size: 76rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 72rpx;
+}
+.bg1 .section-main .p2 {
+  margin-top: 16rpx;
+  height: 54rpx;
+  font-size: 52rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 54rpx;
+}
+.bg1 .section-main .p3 {
+  margin-top: 131rpx;
+  height: 34rpx;
+  font-size: 36rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 34rpx;
+}
+.bg1 .section-main .iphone,
+.bg1 .section-main .andriod {
+  width: 320rpx;
+  height: 90rpx;
+}
+.bg1 .section-main .iphone {
+  margin-top: 34rpx;
+}
+.bg1 .section-main .andriod {
+  margin-top: 35rpx;
+}
+.bg1 .section-main .bb {
+  width: 392rpx;
+  height: 616rpx;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 0);
+}
+.bg1 .section-main .bb .sjpmzs {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.bg1 .section-main .bb .logo {
+  margin-top: 104rpx;
+  position: relative;
+  width: 137rpx;
+  height: 196rpx;
+}
+.bg2 {
+  background-color: #fff;
+}
+.bg2 .section-main {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 100%;
+  height: 1148rpx;
+  z-index: 100;
+}
+.bg2 .section-main .p1 {
+  width: 100%;
+  text-align: center;
+  font-size: 52rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+  line-height: 52rpx;
+}
+.bg2 .section-main .p2 {
+  margin-top: 16rpx;
+  width: 100%;
+  text-align: center;
+  font-size: 52rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #333333;
+  line-height: 52rpx;
+}
+.bg2 .section-main .p3 {
+  margin-top: 56rpx;
+  width: 537rpx;
+  height: 120rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #999999;
+  line-height: 46rpx;
+}
+.bg2 .section-main .bb {
+  flex-shrink: 0;
+  margin-top: 53rpx;
+  width: 654rpx;
+  height: 806rpx;
+  position: relative;
+}
+.bg2 .section-main .bb .xl {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.bg2 .section-main .bb .xl1 {
+  position: absolute;
+  width: 558rpx;
+  height: 147rpx;
+  top: 120rpx;
+  right: 5rpx;
+}
+.bg2 .section-main .bb .xl2 {
+  position: absolute;
+  width: 345rpx;
+  height: 551rpx;
+  left: 54rpx;
+  bottom: 48rpx;
+}
+.bg2 .section-main .bb .xl3 {
+  position: absolute;
+  width: 111rpx;
+  height: 110rpx;
+  left: 210rpx;
+  bottom: 124rpx;
+}
+.bg2 .section-main .bb .xl4 {
+  position: absolute;
+  width: 103rpx;
+  height: 102rpx;
+  top: 294rpx;
+  right: 210rpx;
+}
+.bg2 .section-main .bb .xl5 {
+  position: absolute;
+  width: 102rpx;
+  height: 101rpx;
+  bottom: 307rpx;
+  right: 11rpx;
+}
+.bg3 {
+  background-color: #fff;
+}
+.bg3 .section-main {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 100%;
+  height: 1142rpx;
+  z-index: 100;
+}
+.bg3 .section-main .p1 {
+  width: 100%;
+  text-align: center;
+  font-size: 52rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+  line-height: 52rpx;
+}
+.bg3 .section-main .p2 {
+  margin-top: 16rpx;
+  width: 100%;
+  text-align: center;
+  font-size: 52rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #333333;
+  line-height: 52rpx;
+}
+.bg3 .section-main .p3 {
+  margin-top: 56rpx;
+  width: 537rpx;
+  height: 120rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #999999;
+  line-height: 46rpx;
+}
+.bg3 .section-main .bb {
+  flex-shrink: 0;
+  margin-top: 80rpx;
+  width: 595rpx;
+  height: 773rpx;
+  position: relative;
+}
+.bg3 .section-main .bb .dj {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.bg3 .section-main .bb .dj1 {
+  position: absolute;
+  width: 41rpx;
+  height: 55rpx;
+  left: 182rpx;
+  bottom: 338rpx;
+}
+.bg3 .section-main .bb .dj2 {
+  position: absolute;
+  width: 41rpx;
+  height: 55rpx;
+  top: 340rpx;
+  right: 292rpx;
+}
+.bg3 .section-main .bb .dj3 {
+  position: absolute;
+  width: 41rpx;
+  height: 55rpx;
+  right: 212rpx;
+  bottom: 318rpx;
+}
+.bg3 .section-main .bb .dj4 {
+  position: absolute;
+  width: 55rpx;
+  height: 39rpx;
+  top: 286rpx;
+  right: 221rpx;
+}
+.bg3 .section-main .bb .dj5 {
+  position: absolute;
+  width: 268rpx;
+  height: 176rpx;
+  top: 200rpx;
+  left: 63rpx;
+}
+.bg3 .section-main .bb .dj6 {
+  position: absolute;
+  width: 104rpx;
+  height: 103rpx;
+  left: 263rpx;
+  bottom: 206rpx;
+}
+.bg3 .section-main .bb .dj7 {
+  position: absolute;
+  width: 336rpx;
+  height: 439rpx;
+  right: -103rpx;
+  bottom: 67rpx;
+}
+.bg3 .section-main .bb .dj8 {
+  position: absolute;
+  width: 64rpx;
+  height: 63rpx;
+  top: 190rpx;
+  right: 58rpx;
+}
+.bg3 .section-main .bb .dj9 {
+  position: absolute;
+  width: 94rpx;
+  height: 93rpx;
+  top: 84rpx;
+  right: 28rpx;
+}
+.bg4 {
+  background-color: #fff;
+}
+.bg4 .section-main {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 100%;
+  height: 1099rpx;
+  z-index: 100;
+}
+.bg4 .section-main .p1 {
+  width: 100%;
+  text-align: center;
+  font-size: 52rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+  line-height: 52rpx;
+}
+.bg4 .section-main .p2 {
+  margin-top: 16rpx;
+  width: 100%;
+  text-align: center;
+  font-size: 52rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #333333;
+  line-height: 52rpx;
+}
+.bg4 .section-main .p3 {
+  margin-top: 56rpx;
+  width: 536rpx;
+  height: 74rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #999999;
+  line-height: 46rpx;
+}
+.bg4 .section-main .bb {
+  flex-shrink: 0;
+  margin-top: 80rpx;
+  width: 603rpx;
+  height: 776rpx;
+  position: relative;
+}
+.bg4 .section-main .bb .dl {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.bg4 .section-main .bb .dl1 {
+  position: absolute;
+  width: 287rpx;
+  height: 490rpx;
+  right: -33rpx;
+  top: 127rpx;
+}
+.bg4 .section-main .bb .dl2 {
+  position: absolute;
+  width: 343rpx;
+  height: 66rpx;
+  right: -2rpx;
+  top: 214rpx;
+}
+.bg4 .section-main .bb .dl3 {
+  position: absolute;
+  width: 186rpx;
+  height: 127rpx;
+  right: 17rpx;
+  top: 306rpx;
+}
+.bg4 .section-main .bb .dl4 {
+  position: absolute;
+  width: 157rpx;
+  height: 55rpx;
+  top: 350rpx;
+  right: 109rpx;
+}
+.bg4 .section-main .bb .dl5 {
+  position: absolute;
+  width: 53rpx;
+  height: 69rpx;
+  bottom: 269rpx;
+  right: 93rpx;
+}
+.bg4 .section-main .bb .dl6 {
+  position: absolute;
+  width: 43rpx;
+  height: 55rpx;
+  right: 173rpx;
+  bottom: 227rpx;
+}
+.bg4 .section-main .bb .dl7 {
+  position: absolute;
+  width: 43rpx;
+  height: 55rpx;
+  right: 13rpx;
+  bottom: 229rpx;
+}
+.bg4 .section-main .bb .dl8 {
+  position: absolute;
+  width: 175rpx;
+  height: 174rpx;
+  top: 89rpx;
+  left: -29rpx;
+}
+.bg4 .section-main .bb .dl9 {
+  position: absolute;
+  width: 398rpx;
+  height: 363rpx;
+  left: -68rpx;
+  bottom: -12rpx;
+}
+.bg5 {
+  background-color: #D9F1FF;
+}
+.bg5 .section-main {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 100;
+}
+.bg5 .section-main .logo {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  bottom: 900rpx;
+  width: 189rpx;
+  height: 248rpx;
+}
+.bg5 .section-main .iphone {
+  position: absolute;
+  width: 290upx;
+  height: 100upx;
+  bottom: 750rpx;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.bg5 .section-main .xz1 {
+  position: absolute;
+  width: 56rpx;
+  height: 74rpx;
+  left: 357rpx;
+  bottom: 474rpx;
+}
+.bg5 .section-main .xz2 {
+  position: absolute;
+  width: 83rpx;
+  height: 110rpx;
+  right: 34rpx;
+  bottom: 558rpx;
+}

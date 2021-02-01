@@ -1,0 +1,107 @@
+<template>
+	<view style="background: #F5F8FA;">
+		<myHeader style="margin-bottom: 110rpx;"></myHeader>
+		<view class="collegePages">
+			<view class="player_box">
+				<!-- <image src="https://wggdown.wanggougou.cn/webimg/wap20201212/babyLand/player.png" class="playerImg"></image> -->
+			</view>
+		</view>
+		<image src="https://wggdown.wanggougou.cn/webimg/wap20210108/childrenStyle/colloegeTitle.png" class="colloegeTitle"></image>
+		<scroll-view class="scroll-view_H" :scroll-x="true"@scroll="scroll" scroll-left=0 >
+			 <image src="https://wggdown.wanggougou.cn/webimg/wap20210108/college/scrollImg3.png" class="scroll-view-item_H" style="margin-left: 156rpx;"></image>
+			 <image src="https://wggdown.wanggougou.cn/webimg/wap20210108/college/scrollImg2.png" class="scroll-view-item_H"></image>
+			 <image src="https://wggdown.wanggougou.cn/webimg/wap20210108/college/scrollImg4.png" class="scroll-view-item_H"></image>
+			 <image src="https://wggdown.wanggougou.cn/webimg/wap20210108/college/scrollImg1.png" class="scroll-view-item_H" style="margin-right: 156rpx;"></image>
+		</scroll-view>
+		<view class="footer_box">
+			<image src="https://wggdown.wanggougou.cn/webimg/wap20210108/childrenStyle/downBtn.png" @click="downBtn()" class="downBtn"></image>
+		</view>
+	</view>
+</template>
+
+<script>
+	import myHeader from '@/components/my_header/my_header';
+	export default {
+		components: { myHeader },
+		data() {
+			return {
+				
+			}
+		},
+		methods: {
+			downBtn(){
+				window.location.href = "https://www.wanggougou.cn/download.html"
+			}
+		}
+	}
+</script>
+
+<style scoped>
+	.collegePages{
+		width: 100%;
+		height: 6202rpx;
+		background-image: url("https://wggdown.wanggougou.cn/webimg/wap20210108/college/collgeall.png");
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+	.player_box{
+		border: 6rpx solid #FFFFFF;
+		box-shadow: 0px 60rpx 120rpx rgba(4, 73, 151, 0.2);
+		border-radius: 20rpx;
+		width: 658rpx;
+		height: 492rpx;
+		background-image: url("https://wggdown.wanggougou.cn/webimg/pc20201212/product/family/fa.png");
+		background-size: 100%;
+		background-repeat: no-repeat;
+		opacity: 1;
+		border-radius: 8px;
+		position: relative;
+		top: 424rpx;
+		left: 50%;
+		transform: translateX(-50%);    /* 50%为自身尺寸的一半 */
+		
+	}
+	.playerImg{
+		width: 196rpx;
+		height: 196rpx;
+		 position: absolute; left: 50%; top: 50%;
+		 transform: translate(-50%, -50%);    /* 50%为自身尺寸的一半 */
+	}
+	.footer_box{
+		background-image: url("https://wggdown.wanggougou.cn/webimg/wap20210108/childrenStyle/footer1.png");
+		background-repeat: no-repeat;
+		background-size: 100%;
+		width: 750rpx;
+		height: 808rpx;
+		position: relative;
+		margin-top: -200rpx;
+	}
+	.downBtn{
+		width: 254rpx;
+		height: 70rpx;
+		position: absolute;
+		left: 148rpx;
+		bottom: 224rpx;
+	}
+	.colloegeTitle{
+		display: block;
+		width: 544rpx;
+		height: 152rpx;
+		margin: 60rpx auto;
+		margin-top: 8rpx;
+	}
+	// 横向
+	.scroll-view_H {
+		white-space: nowrap;
+		width: 100%;
+		margin: 60rpx 0;
+		
+	}
+	// 横向
+	.scroll-view-item_H {
+		display: inline-block;
+		width: 422rpx;
+		height: 420rpx;
+		margin-right: 24rpx;
+	}
+</style>

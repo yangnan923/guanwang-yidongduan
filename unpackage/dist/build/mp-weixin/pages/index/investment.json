@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "mosowe-swiper": "/components/mosowe-swiper/mosowe-swiper",
+    "u-popup": "/node-modules/uview-ui/components/u-popup/u-popup",
+    "custom-swiper": "/components/blackmonth-swiper/index"
+  }
+}
